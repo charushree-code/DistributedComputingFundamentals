@@ -13,7 +13,7 @@ docker exec -it 33d23be5d155
 echo first nginx server > group3.html
 # to chech/verify if it exist
 ls
-#exit the container
+#exit the container 
 exit
 #to find ip address of container
 #docker inspect --format '{{ .NetworkingSettings.IPAddresss }}' container-id
